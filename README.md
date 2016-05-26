@@ -18,3 +18,4 @@ Obs: Todo o código dispõe de comentários individuais
 
 Obs2: Informações de como actualizar o firmware do microcontrolador podem ser encontradas na internet "Google"!.
 
+ImagemImagemImagem
