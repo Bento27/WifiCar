@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B377491B6EA9AF0088D8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B377481B6EA9AF0088D8FA /* AppDelegate.swift */; };
+		81B3774E1B6EA9AF0088D8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B3774C1B6EA9AF0088D8FA /* Main.storyboard */; };
+		81B377511B6EA9AF0088D8FA /* WifiRC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B3774F1B6EA9AF0088D8FA /* WifiRC.xcdatamodeld */; };
+		81B377561B6EA9AF0088D8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B377541B6EA9AF0088D8FA /* LaunchScreen.storyboard */; };
+		81B377611B6EA9AF0088D8FA /* WifiRCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B377601B6EA9AF0088D8FA /* WifiRCTests.swift */; };
+		81B3776C1B6EA9AF0088D8FA /* WifiRCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3776B1B6EA9AF0088D8FA /* WifiRCUITests.swift */; };
+		81B3777E1B6EABDE0088D8FA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3777D1B6EABDE0088D8FA /* SWRevealViewController.m */; };
+		81B377801B6EB0B70088D8FA /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3777F1B6EB0B70088D8FA /* BackTableVC.swift */; };
+		81B377821B6EBB000088D8FA /* Setas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B377811B6EBB000088D8FA /* Setas.swift */; };
+		81B377841B6EBC110088D8FA /* Acelarometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B377831B6EBC110088D8FA /* Acelarometro.swift */; };
+		81B377861B6EBC2C0088D8FA /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B377851B6EBC2C0088D8FA /* About.swift */; };
+		81C8989A1B76808900B976D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C898991B76808900B976D5 /* Assets.xcassets */; };
+		81CC5B9F1B702EC9007CA0DD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CC5B9E1B702EC9007CA0DD /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B3775D1B6EA9AF0088D8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B3773D1B6EA9AE0088D8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B377441B6EA9AE0088D8FA;
+			remoteInfo = WifiRC;
+		};
+		81B377681B6EA9AF0088D8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B3773D1B6EA9AE0088D8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B377441B6EA9AE0088D8FA;
+			remoteInfo = WifiRC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B377451B6EA9AF0088D8FA /* WifiRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B377481B6EA9AF0088D8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B3774D1B6EA9AF0088D8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B377501B6EA9AF0088D8FA /* WifiRC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WifiRC.xcdatamodel; sourceTree = "<group>"; };
+		81B377551B6EA9AF0088D8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B377571B6EA9AF0088D8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B3775C1B6EA9AF0088D8FA /* WifiRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiRCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B377601B6EA9AF0088D8FA /* WifiRCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiRCTests.swift; sourceTree = "<group>"; };
+		81B377621B6EA9AF0088D8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B377671B6EA9AF0088D8FA /* WifiRCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiRCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B3776B1B6EA9AF0088D8FA /* WifiRCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiRCUITests.swift; sourceTree = "<group>"; };
+		81B3776D1B6EA9AF0088D8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B3777B1B6EABDD0088D8FA /* WifiRC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiRC-Bridging-Header.h"; sourceTree = "<group>"; };
+		81B3777C1B6EABDE0088D8FA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		81B3777D1B6EABDE0088D8FA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		81B3777F1B6EB0B70088D8FA /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		81B377811B6EBB000088D8FA /* Setas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setas.swift; sourceTree = "<group>"; };
+		81B377831B6EBC110088D8FA /* Acelarometro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acelarometro.swift; sourceTree = "<group>"; };
+		81B377851B6EBC2C0088D8FA /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		81C898991B76808900B976D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81CC5B9D1B702EC9007CA0DD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		81CC5B9E1B702EC9007CA0DD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B377421B6EA9AE0088D8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B377591B6EA9AF0088D8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B377641B6EA9AF0088D8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B3773C1B6EA9AE0088D8FA = {
+			isa = PBXGroup;
+			children = (
+				81B377471B6EA9AF0088D8FA /* WifiRC */,
+				81B3775F1B6EA9AF0088D8FA /* WifiRCTests */,
+				81B3776A1B6EA9AF0088D8FA /* WifiRCUITests */,
+				81B377461B6EA9AF0088D8FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B377461B6EA9AF0088D8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B377451B6EA9AF0088D8FA /* WifiRC.app */,
+				81B3775C1B6EA9AF0088D8FA /* WifiRCTests.xctest */,
+				81B377671B6EA9AF0088D8FA /* WifiRCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B377471B6EA9AF0088D8FA /* WifiRC */ = {
+			isa = PBXGroup;
+			children = (
+				81B377481B6EA9AF0088D8FA /* AppDelegate.swift */,
+				81B3774C1B6EA9AF0088D8FA /* Main.storyboard */,
+				81B377831B6EBC110088D8FA /* Acelarometro.swift */,
+				81B377851B6EBC2C0088D8FA /* About.swift */,
+				81B377811B6EBB000088D8FA /* Setas.swift */,
+				81B3777F1B6EB0B70088D8FA /* BackTableVC.swift */,
+				81B377541B6EA9AF0088D8FA /* LaunchScreen.storyboard */,
+				81C898991B76808900B976D5 /* Assets.xcassets */,
+				81B377571B6EA9AF0088D8FA /* Info.plist */,
+				81B3774F1B6EA9AF0088D8FA /* WifiRC.xcdatamodeld */,
+				81B3777A1B6EAB840088D8FA /* Supporting Files */,
+			);
+			path = WifiRC;
+			sourceTree = "<group>";
+		};
+		81B3775F1B6EA9AF0088D8FA /* WifiRCTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B377601B6EA9AF0088D8FA /* WifiRCTests.swift */,
+				81B377621B6EA9AF0088D8FA /* Info.plist */,
+			);
+			path = WifiRCTests;
+			sourceTree = "<group>";
+		};
+		81B3776A1B6EA9AF0088D8FA /* WifiRCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B3776B1B6EA9AF0088D8FA /* WifiRCUITests.swift */,
+				81B3776D1B6EA9AF0088D8FA /* Info.plist */,
+			);
+			path = WifiRCUITests;
+			sourceTree = "<group>";
+		};
+		81B3777A1B6EAB840088D8FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CC5B9D1B702EC9007CA0DD /* GCDAsyncUdpSocket.h */,
+				81CC5B9E1B702EC9007CA0DD /* GCDAsyncUdpSocket.m */,
+				81B3777C1B6EABDE0088D8FA /* SWRevealViewController.h */,
+				81B3777D1B6EABDE0088D8FA /* SWRevealViewController.m */,
+				81B3777B1B6EABDD0088D8FA /* WifiRC-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B377441B6EA9AE0088D8FA /* WifiRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B377701B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRC" */;
+			buildPhases = (
+				81B377411B6EA9AE0088D8FA /* Sources */,
+				81B377421B6EA9AE0088D8FA /* Frameworks */,
+				81B377431B6EA9AE0088D8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiRC;
+			productName = WifiRC;
+			productReference = 81B377451B6EA9AF0088D8FA /* WifiRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B3775B1B6EA9AF0088D8FA /* WifiRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B377731B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRCTests" */;
+			buildPhases = (
+				81B377581B6EA9AF0088D8FA /* Sources */,
+				81B377591B6EA9AF0088D8FA /* Frameworks */,
+				81B3775A1B6EA9AF0088D8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B3775E1B6EA9AF0088D8FA /* PBXTargetDependency */,
+			);
+			name = WifiRCTests;
+			productName = WifiRCTests;
+			productReference = 81B3775C1B6EA9AF0088D8FA /* WifiRCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B377661B6EA9AF0088D8FA /* WifiRCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B377761B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRCUITests" */;
+			buildPhases = (
+				81B377631B6EA9AF0088D8FA /* Sources */,
+				81B377641B6EA9AF0088D8FA /* Frameworks */,
+				81B377651B6EA9AF0088D8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B377691B6EA9AF0088D8FA /* PBXTargetDependency */,
+			);
+			name = WifiRCUITests;
+			productName = WifiRCUITests;
+			productReference = 81B377671B6EA9AF0088D8FA /* WifiRCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B3773D1B6EA9AE0088D8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ludgero Bento";
+				TargetAttributes = {
+					81B377441B6EA9AE0088D8FA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = BMMJX255VW;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					81B3775B1B6EA9AF0088D8FA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 81B377441B6EA9AE0088D8FA;
+					};
+					81B377661B6EA9AF0088D8FA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 81B377441B6EA9AE0088D8FA;
+					};
+				};
+			};
+			buildConfigurationList = 81B377401B6EA9AE0088D8FA /* Build configuration list for PBXProject "WifiRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B3773C1B6EA9AE0088D8FA;
+			productRefGroup = 81B377461B6EA9AF0088D8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B377441B6EA9AE0088D8FA /* WifiRC */,
+				81B3775B1B6EA9AF0088D8FA /* WifiRCTests */,
+				81B377661B6EA9AF0088D8FA /* WifiRCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B377431B6EA9AE0088D8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B377561B6EA9AF0088D8FA /* LaunchScreen.storyboard in Resources */,
+				81C8989A1B76808900B976D5 /* Assets.xcassets in Resources */,
+				81B3774E1B6EA9AF0088D8FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B3775A1B6EA9AF0088D8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B377651B6EA9AF0088D8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B377411B6EA9AE0088D8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B377861B6EBC2C0088D8FA /* About.swift in Sources */,
+				81B377801B6EB0B70088D8FA /* BackTableVC.swift in Sources */,
+				81B377511B6EA9AF0088D8FA /* WifiRC.xcdatamodeld in Sources */,
+				81B377841B6EBC110088D8FA /* Acelarometro.swift in Sources */,
+				81CC5B9F1B702EC9007CA0DD /* GCDAsyncUdpSocket.m in Sources */,
+				81B377491B6EA9AF0088D8FA /* AppDelegate.swift in Sources */,
+				81B377821B6EBB000088D8FA /* Setas.swift in Sources */,
+				81B3777E1B6EABDE0088D8FA /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B377581B6EA9AF0088D8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B377611B6EA9AF0088D8FA /* WifiRCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B377631B6EA9AF0088D8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B3776C1B6EA9AF0088D8FA /* WifiRCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B3775E1B6EA9AF0088D8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B377441B6EA9AE0088D8FA /* WifiRC */;
+			targetProxy = 81B3775D1B6EA9AF0088D8FA /* PBXContainerItemProxy */;
+		};
+		81B377691B6EA9AF0088D8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B377441B6EA9AE0088D8FA /* WifiRC */;
+			targetProxy = 81B377681B6EA9AF0088D8FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B3774C1B6EA9AF0088D8FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B3774D1B6EA9AF0088D8FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B377541B6EA9AF0088D8FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B377551B6EA9AF0088D8FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B3776E1B6EA9AF0088D8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B3776F1B6EA9AF0088D8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B377711B6EA9AF0088D8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WifiRC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WifiRC/WifiRC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B377721B6EA9AF0088D8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WifiRC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WifiRC/WifiRC-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		81B377741B6EA9AF0088D8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WifiRCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiRC.app/WifiRC";
+			};
+			name = Debug;
+		};
+		81B377751B6EA9AF0088D8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WifiRCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiRC.app/WifiRC";
+			};
+			name = Release;
+		};
+		81B377771B6EA9AF0088D8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WifiRCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WifiRC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		81B377781B6EA9AF0088D8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WifiRCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lbento.WifiRCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WifiRC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B377401B6EA9AE0088D8FA /* Build configuration list for PBXProject "WifiRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B3776E1B6EA9AF0088D8FA /* Debug */,
+				81B3776F1B6EA9AF0088D8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B377701B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B377711B6EA9AF0088D8FA /* Debug */,
+				81B377721B6EA9AF0088D8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B377731B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B377741B6EA9AF0088D8FA /* Debug */,
+				81B377751B6EA9AF0088D8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B377761B6EA9AF0088D8FA /* Build configuration list for PBXNativeTarget "WifiRCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B377771B6EA9AF0088D8FA /* Debug */,
+				81B377781B6EA9AF0088D8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81B3774F1B6EA9AF0088D8FA /* WifiRC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81B377501B6EA9AF0088D8FA /* WifiRC.xcdatamodel */,
+			);
+			currentVersion = 81B377501B6EA9AF0088D8FA /* WifiRC.xcdatamodel */;
+			path = WifiRC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81B3773D1B6EA9AE0088D8FA /* Project object */;
+}

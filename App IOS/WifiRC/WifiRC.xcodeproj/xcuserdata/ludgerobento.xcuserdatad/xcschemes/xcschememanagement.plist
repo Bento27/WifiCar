@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WifiRC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>81B377441B6EA9AE0088D8FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81B3775B1B6EA9AF0088D8FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81B377661B6EA9AF0088D8FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
